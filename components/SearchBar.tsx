@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import SearchManufacter from "./SearchManufacter";
+import Image from "next/image";
 
 const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   <button type="submit" className={`-ml-3 z-10 ${otherClasses}`}>
